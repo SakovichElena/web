@@ -1,0 +1,157 @@
+body {
+  color: #000;
+  background-color: #fff;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+hr {
+  width: 1170px;
+  color: #babbc5;
+  margin: 0;
+}
+
+h1 {
+  width: 1170px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 15px;
+  font-size: 64px;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h4 {
+  color: #000;
+  margin: 41px 0 20px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 72px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.landing {
+  background-image: url("desk.85a1cc0f.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.landing:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.nav {
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav .logo {
+  margin: 38px 0;
+}
+
+.nav .nav__menu {
+  display: flex;
+}
+
+.nav__menu span {
+  width: 100%;
+  border-bottom: 3px solid #babbc5;
+  padding: 0 34px 47px;
+}
+
+nav li a {
+  width: 134px;
+  height: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 100px;
+  text-decoration: none;
+  display: block;
+}
+
+.landing-main {
+  text-align: center;
+  color: #fff;
+  padding-top: 131px;
+}
+
+p {
+  width: 1170px;
+  box-sizing: border-box;
+  margin: 31px auto 82px;
+  padding: 0 10px;
+  font-size: 24px;
+}
+
+button {
+  width: 370px;
+  height: 78px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #ff4343;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.offers {
+  padding: 116px 0;
+}
+
+.row {
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 100px 28px;
+  margin: 0 0 18px;
+  display: flex;
+}
+
+.row .description {
+  width: 370px;
+  color: #6c7279;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.design {
+  margin-top: 28px;
+}
+
+.code {
+  margin-top: 46px;
+}
+
+.free {
+  margin-top: 58px;
+}
+
+.photos {
+  width: 1510px;
+  box-sizing: border-box;
+  border: none;
+}
+
+/*# sourceMappingURL=index.8368275b.css.map */
