@@ -20,7 +20,8 @@ h1 {
     font-size: 64px;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 0 15px;
+    padding: 0;
+    text-transform: uppercase;
 }
 // h2 {
 
@@ -28,6 +29,8 @@ h1 {
 h3 {
     font-weight: 500;
     font-size: 30px;
+    margin: 0 auto;
+    line-height: 70px;
 }
 h4 {
     margin: 41px 0 20px;
@@ -35,6 +38,12 @@ h4 {
     color: #000;
     font-size: 24px;
     line-height: 72px;
+    text-transform: uppercase;
+}
+h5 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
 }
 .container {
     width: 1170px;
@@ -45,16 +54,30 @@ h4 {
     position: relative;
     background-image: url(../image/desk.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    width: 1510px;
     padding-bottom: 120px;
-
+    background: 
+        linear-gradient( 
+            rgba(37, 43, 73, 1),
+            rgba(37, 43, 73, 1)
+        ),
+        url(../image/desk.png);
 }
 .landing::before {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    // background: #252B49 ;
-    // opacity: 0.8; 
+    background: #252B49 ;
+    background: rgba(37, 43, 73, 1);
+    opacity: 0.8; 
+    inset: 0;
+//     background: 
+//         linear-gradient( 
+//             rgba(37, 43, 73, 1),
+//             rgba(37, 43, 73, 1)
+//         ),
+//         url(../image/desk.png);
+// }
 }
 .nav {
     display: flex;
@@ -72,6 +95,12 @@ h4 {
     padding-bottom: 40px;
     padding: 0 34px 47px;
     width: 100%;
+}
+.nav__menu span:hover {
+    background-color: #BABBC5;
+}
+.nav__menu span:active {
+    background-color: #E71414;
 }
 nav li a {
     display: block;
@@ -95,7 +124,7 @@ p {
     font-size: 24px;
     padding: 0 10px;
     margin: 31px auto 82px;
-    
+    padding: 0;
 }
 button {
     width: 370px;
@@ -105,11 +134,18 @@ button {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 24px;
+    border: none;
 }
+button:hover {
+    content: "";
+    background-color: #E71414;
+}
+button:active {
+        background-color: #FF4343;
+        box-shadow: 4px 4px 30px #FF4343;
+    }
 .offers {
     padding: 116px 0;
-    // margin: 0 auto;
-    // box-sizing: border-box;
 }
 .row {
     display: flex;
@@ -121,7 +157,6 @@ button {
         width: 370px;
         color: #6C7279;
         font-size: 18px;
-        padding: 0;
         margin: 0;
     }
 }
@@ -135,8 +170,111 @@ button {
     margin-top: 58px;
 }
 .photos {
-    width: 1510px;
-    box-sizing: border-box;
-    border: none;
-    
+    width: 1512px;
+}
+.staff {
+    display: flex;
+    gap: 30px;
+    margin: 115px auto;
+}
+.name {
+    width: 270px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0 5px;
+    padding: 0;
+}
+.person {
+    width: 270px;
+    // margin: 0;
+}
+.about-them ,.description {
+    width: 270px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #6C7279;
+    ;
+}
+.profession {
+    width: 270px;
+    color: #FF4343;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin:0 0 18px;
+}
+.icons {
+    margin: 38px 0 0;
+    display: flex;
+    gap: 6px;
+}
+.circles {
+    margin: 31px auto 0;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.download {
+    margin: 114px auto 114px;
+    text-align: center;
+}
+.start {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 5px auto 50px;
+    padding: 0;
+}
+.data {
+    background-color: #353C65;
+    color: #fff;
+   
+}
+.info {
+    display: flex;
+    padding: 70px 0 110px;
+    gap: 30px;
+}
+.location {
+    width: 370px;
+    text-align: center;
+    .address {
+        width: 370px;
+        font-size: 18px;
+        margin: 29px 0 0;
+        padding: 0;
+    }
+}
+.sotial {
+    width: 370px;
+    text-align: center;
+    .icons {
+        justify-content: center;
+        gap: 27px;
+        margin: 49px auto 0;
+    }
+}
+.about {
+    width: 370px;
+    text-align: center;
+    p {
+        width: 370px;
+        font-size: 18px;
+        margin: 29px auto 0;
+    }
+}
+.footer {
+    padding: 24px auto 24px;
+    background-color: #2C3154;
+    color: #808080;
+        p {
+            padding: 24px 0 24px;
+            width: 370px;
+            font-size: 18px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    span {
+        color: #fff;
+    }
 }
