@@ -49,11 +49,13 @@ h4 {
 }
 .landing {
     position: relative;
-    background-image: url(../image/desk.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 1510px;
     height: 747px;
+    background-image: url(../image/desk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .landing-background {
     background-color: rgba(37 43 73 /.8);
@@ -65,14 +67,14 @@ h4 {
     justify-content: space-between;
     text-align: center;
     .logo {
-        margin: 38px 0 35px;
+        margin: 36px 0 33px;
     }
     .nav__menu {
         display: flex;
          span {
             border-bottom: 3px solid #BABBC5;
             padding-bottom: 40px;
-            padding: 43px 34px 46px;
+            padding: 41px 34px 42px;
         }
         span:hover {
             color: #BABBC5;
@@ -104,7 +106,7 @@ h4 {
 .landing-main {
     text-align: center;
     color: #fff;
-    padding: 130px 0 113px;
+    padding: 130px 0 118px;
 }
 p {
     width: 1028px;
@@ -116,6 +118,7 @@ p {
 button {
     width: 370px;
     height: 78px;
+    padding: 0;
     background-color:#FF4343;
     color: #fff;
     text-transform: uppercase;
