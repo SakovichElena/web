@@ -57,7 +57,8 @@ h5 {
 
 .landing {
   width: 1510px;
-  background: linear-gradient(#252b49, #252b49), url("desk.85a1cc0f.png");
+  background-image: url("desk.85a1cc0f.png");
+  background-repeat: no-repeat;
   padding-bottom: 120px;
   position: relative;
 }
