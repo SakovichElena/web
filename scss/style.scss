@@ -91,7 +91,6 @@ h5 {
             border-bottom: 3px solid #BABBC5;
             padding-bottom: 40px;
             padding: 43px 34px 47px;
-            width: 100%;
         }
         span:hover {
             color: #BABBC5;
@@ -112,27 +111,14 @@ h5 {
             text-transform: uppercase;
             text-align: center;
         }
+        li a:hover {
+            color: #BABBC5;
+        }
+        li a:active {
+            color: #E71414;
+        }
     }
 }
-
-// .nav__menu span:hover {
-//     background-color: #BABBC5;
-// }
-// .nav__menu span:active {
-//     background-color: #E71414;
-// }
-// nav li a {
-//     display: block;
-//     width: 134px;
-//     height: 100px;
-//     line-height: 100px;
-//     color: #fff;
-//     font-weight: 700;
-//     font-size: 13px;
-//     text-decoration: none;
-//     text-transform: uppercase;
-//     text-align: center;
-// }
 .landing-main {
     text-align: center;
     color: #fff;
@@ -203,45 +189,44 @@ button:active {
 }
 .project-name:hover {
     background: url(/image/project-name.png);
+    transition: .3s;
 }
     .project-name:active {     
     background-image: url(/image/project.png);
+    transition: .3s;
     }
 .staff {
     display: flex;
     gap: 30px;
     margin: 115px auto;
-}
-.name {
-    width: 270px;
-    font-size: 24px;
-    font-weight: 700;
-    margin: 30px 0 5px;
-    padding: 0;
-}
-.person {
-    width: 270px;
-    // margin: 0;
-}
-.about-them ,.description {
-    width: 270px;
-    font-size: 18px;
-    margin: 0;
-    padding: 0;
-    color: #6C7279;
-    ;
-}
-.profession {
-    width: 270px;
-    color: #FF4343;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin:0 0 18px;
-}
-.icons {
-    margin: 38px 0 0;
-    display: flex;
-    gap: 6px;
+    .name {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 30px 0 5px;
+        padding: 0;
+    }
+    .person {
+        width: 270px;
+    }
+    .about-them ,.description {
+        width: 270px;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        color: #6C7279;
+    }
+    .profession {
+        width: 270px;
+        color: #FF4343;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin:0 0 18px;
+    }
+    .icons {
+        margin: 38px 0 0;
+        display: flex;
+        gap: 6px;
+    }
 }
 .circles {
     margin: 31px auto 0;

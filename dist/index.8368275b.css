@@ -86,7 +86,6 @@ h5 {
 }
 
 .nav .nav__menu span {
-  width: 100%;
   border-bottom: 3px solid #babbc5;
   padding: 43px 34px 47px;
 }
@@ -111,6 +110,14 @@ h5 {
   line-height: 100px;
   text-decoration: none;
   display: block;
+}
+
+.nav .nav__menu li a:hover {
+  color: #babbc5;
+}
+
+.nav .nav__menu li a:active {
+  color: #e71414;
 }
 
 .landing-main {
@@ -196,10 +203,12 @@ button:active {
 
 .project-name:hover {
   background: url("project-name.55646092.png");
+  transition: all .3s;
 }
 
 .project-name:active {
   background-image: url("project.15e344fa.png");
+  transition: all .3s;
 }
 
 .staff {
@@ -208,19 +217,18 @@ button:active {
   display: flex;
 }
 
-.name {
-  width: 270px;
+.staff .name {
   margin: 30px 0 5px;
   padding: 0;
   font-size: 24px;
   font-weight: 700;
 }
 
-.person {
+.staff .person {
   width: 270px;
 }
 
-.about-them, .description {
+.staff .about-them, .staff .description {
   width: 270px;
   color: #6c7279;
   margin: 0;
@@ -228,7 +236,7 @@ button:active {
   font-size: 18px;
 }
 
-.profession {
+.staff .profession {
   width: 270px;
   color: #ff4343;
   text-transform: uppercase;
@@ -236,7 +244,7 @@ button:active {
   font-size: 18px;
 }
 
-.icons {
+.staff .icons {
   gap: 6px;
   margin: 38px 0 0;
   display: flex;
