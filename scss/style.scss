@@ -23,16 +23,13 @@ h1 {
     padding: 0;
     text-transform: uppercase;
 }
-// h2 {
-
-// }
-h3 {
+h2 {
     font-weight: 500;
     font-size: 30px;
     margin: 0 auto;
     line-height: 70px;
 }
-h4 {
+h3 {
     margin: 41px 0 20px;
     font-weight: 900;
     color: #000;
@@ -40,7 +37,7 @@ h4 {
     line-height: 72px;
     text-transform: uppercase;
 }
-h5 {
+h4 {
     font-weight: 700;
     font-size: 18px;
     margin: 0;
@@ -56,12 +53,6 @@ h5 {
     background-repeat: no-repeat;
     width: 1510px;
     padding-bottom: 120px;
-    // background: 
-        // linear-gradient( 
-        //     rgba(37, 43, 73, 1),
-        //     rgba(37, 43, 73, 1)
-        // ),
-        // url(../image/desk.png);
 }
 .landing::before {
     content: "";
@@ -70,13 +61,6 @@ h5 {
     background: rgba(37, 43, 73, 1);
     opacity: 0.8; 
     inset: 0;
-//     background: 
-//         linear-gradient( 
-//             rgba(37, 43, 73, 1),
-//             rgba(37, 43, 73, 1)
-//         ),
-//         url(../image/desk.png);
-// }
 }
 .nav {
     display: flex;
@@ -84,6 +68,7 @@ h5 {
     text-align: center;
     .logo {
         margin: 38px 0;
+        
     }
     .nav__menu {
         display: flex;
