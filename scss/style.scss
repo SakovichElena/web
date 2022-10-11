@@ -87,32 +87,52 @@ h5 {
     }
     .nav__menu {
         display: flex;
+         span {
+            border-bottom: 3px solid #BABBC5;
+            padding-bottom: 40px;
+            padding: 43px 34px 47px;
+            width: 100%;
+        }
+        span:hover {
+            color: #BABBC5;
+        }
+        span:active {
+            color: #E71414;
+            border-bottom: 3px solid #E71414;
+        }
+         li a {
+            display: block;
+            width: 134px;
+            height: 100px;
+            line-height: 100px;
+            color: #fff;
+            font-weight: 700;
+            font-size: 13px;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: center;
+        }
     }
 }
-.nav__menu span {
-    border-bottom: 3px solid #BABBC5;
-    padding-bottom: 40px;
-    padding: 0 34px 47px;
-    width: 100%;
-}
-.nav__menu span:hover {
-    background-color: #BABBC5;
-}
-.nav__menu span:active {
-    background-color: #E71414;
-}
-nav li a {
-    display: block;
-    width: 134px;
-    height: 100px;
-    line-height: 100px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 13px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-}
+
+// .nav__menu span:hover {
+//     background-color: #BABBC5;
+// }
+// .nav__menu span:active {
+//     background-color: #E71414;
+// }
+// nav li a {
+//     display: block;
+//     width: 134px;
+//     height: 100px;
+//     line-height: 100px;
+//     color: #fff;
+//     font-weight: 700;
+//     font-size: 13px;
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     text-align: center;
+// }
 .landing-main {
     text-align: center;
     color: #fff;
@@ -170,7 +190,23 @@ button:active {
 }
 .photos {
     width: 1512px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    img {
+        width: 378px;
+        height: 340px;
+    }
 }
+.project-name {
+    background: url(/image/wall.png);
+}
+.project-name:hover {
+    background: url(/image/project-name.png);
+}
+    .project-name:active {     
+    background-image: url(/image/project.png);
+    }
 .staff {
     display: flex;
     gap: 30px;
@@ -227,7 +263,6 @@ button:active {
 .data {
     background-color: #353C65;
     color: #fff;
-   
 }
 .info {
     display: flex;

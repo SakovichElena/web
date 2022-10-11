@@ -85,21 +85,22 @@ h5 {
   display: flex;
 }
 
-.nav__menu span {
+.nav .nav__menu span {
   width: 100%;
   border-bottom: 3px solid #babbc5;
-  padding: 0 34px 47px;
+  padding: 43px 34px 47px;
 }
 
-.nav__menu span:hover {
-  background-color: #babbc5;
+.nav .nav__menu span:hover {
+  color: #babbc5;
 }
 
-.nav__menu span:active {
-  background-color: #e71414;
+.nav .nav__menu span:active {
+  color: #e71414;
+  border-bottom: 3px solid #e71414;
 }
 
-nav li a {
+.nav .nav__menu li a {
   width: 134px;
   height: 100px;
   color: #fff;
@@ -179,6 +180,26 @@ button:active {
 
 .photos {
   width: 1512px;
+  flex-wrap: wrap;
+  margin: 0;
+  display: flex;
+}
+
+.photos img {
+  width: 378px;
+  height: 340px;
+}
+
+.project-name {
+  background: url("wall.14b7b2fc.png");
+}
+
+.project-name:hover {
+  background: url("project-name.55646092.png");
+}
+
+.project-name:active {
+  background-image: url("project.15e344fa.png");
 }
 
 .staff {
