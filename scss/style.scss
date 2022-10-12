@@ -219,9 +219,12 @@ button:active {
     justify-content: space-between;
 }
 .circles img:hover {
-    height: 20px;
+    height: 18px;
     background-color: #7E5D6F;
     border-radius: 50%;
+}
+.circles img:active {
+    height: 22px;
 }
 .download {
     margin: 114px auto 114px;
