@@ -48,7 +48,7 @@ h4 {
     position: relative;
     margin: 0 auto;
 }
-.landing {
+.header {
     position: relative;
     height: 747px;
     background-image: url(../image/desk.png);
@@ -56,7 +56,7 @@ h4 {
     background-size: cover;
     background-position: center;
 }
-.landing-background {
+.header-background {
     background-color: rgba(37 43 73 /.8);
     // width: 100%;
     height: 747px;
@@ -102,7 +102,7 @@ h4 {
         }
     }
 }
-.landing-main {
+.header-main {
     text-align: center;
     color: #fff;
     padding: 130px 0 118px;
@@ -126,7 +126,6 @@ button {
     border: none;
 }
 button:hover {
-    content: "";
     background-color: #E71414;
 }
 button:active {
@@ -168,21 +167,100 @@ button:active {
         height: 340px;
     }
 }
-.project-name {
-    background: url(/image/wall.png);
+.table {
+    background: url(/image/table.jpg);
 }
-.project-name:hover {
+.table:hover {
     background: url(/image/project-name.png);
     transition: .3s;
 }
-    .project-name:active {     
+.table:active {     
+    background-image: url(/image/project.png);
+    transition: .3s;
+    }
+.sofa {
+    background: url(/image/sofa.jpg);
+}
+.sofa:hover {
+    background: url(/image/project-name.png);
+    transition: .3s;
+}
+.sofa:active {     
+    background-image: url(/image/project.png);
+    transition: .3s;
+    }
+.wall {
+    background: url(/image/wall.png);
+}
+.wall:hover {
+    background: url(/image/project-name.png);
+    transition: .3s;
+}
+.wall:active {     
+    background-image: url(/image/project.png);
+    transition: .3s;
+    }
+.stools {
+    background: url(/image/stools.jpg);
+}
+.stools:hover {
+    background: url(/image/project-name.png);
+    transition: .3s;
+}
+.stools:active {     
+    background-image: url(/image/project.png);
+    transition: .3s;
+    }
+.armchair {
+    background: url(/image/armchair.jpg);
+}
+.armchair:hover {
+    background: url(/image/project-name.png);
+    transition: .3s;
+}
+.armchair:active {     
+    background-image: url(/image/project.png);
+    transition: .3s;
+    }
+.kitchen {
+    background: url(/image/kitchen.jpg);
+}
+.kitchen:hover {
+    background: url(/image/project-name.png);
+    transition: .3s;
+}
+.kitchen:active {     
+    background-image: url(/image/project.png);
+    transition: .3s;
+    }
+.bedroom {
+    background: url(/image/bedroom.jpg);
+}
+.bedroom:hover {
+    background: url(/image/project-name.png);
+    transition: .3s;
+}
+.bedroom:active {     
+    background-image: url(/image/project.png);
+    transition: .3s;
+    }
+.lounge {
+    background: url(/image/lounge.jpg);
+}
+.lounge:hover {
+    background: url(/image/project-name.png);
+    transition: .3s;
+}
+.lounge:active {     
     background-image: url(/image/project.png);
     transition: .3s;
     }
 .staff {
-    display: flex;
-    gap: 30px;
     margin: 115px auto;
+    .people {
+        display: flex;
+        gap: 30px;
+    }
     .name {
         font-size: 24px;
         font-weight: 700;
@@ -217,14 +295,6 @@ button:active {
     width: 170px;
     display: flex;
     justify-content: space-between;
-}
-.circles img:hover {
-    height: 18px;
-    background-color: #7E5D6F;
-    border-radius: 50%;
-}
-.circles img:active {
-    height: 22px;
 }
 .download {
     margin: 114px auto 114px;
