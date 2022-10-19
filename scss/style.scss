@@ -270,7 +270,21 @@ button:active {
     .icons {
         margin: 38px 0 0;
         display: flex;
-        gap: 6px;
+        justify-content: center;
+        gap: 27px;
+        a {
+            width: 37px;
+            height: 37px;
+            border: 1px solid #C6CBCD;
+            img {
+                padding-top: 11px;
+                padding-left: 11px;
+            }
+            .f {
+                padding-top: 9px;
+                padding-left: 13px;
+            }
+        }
     }
 }
 .circles {
@@ -311,6 +325,20 @@ button:active {
         text-transform: uppercase;
     }
 }
+.logos {
+    margin: 38px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    a {
+        width: 37px;
+        height: 37px;
+        border: 1px solid #C6CBCD;
+        img {
+            padding-top: 11px;
+        }
+    }
+}
 .location {
     width: 370px;
     text-align: center;
@@ -324,11 +352,6 @@ button:active {
 .sotial {
     width: 370px;
     text-align: center;
-    .icons {
-        justify-content: center;
-        gap: 27px;
-        margin: 49px auto 0;
-    }
 }
 .about {
     width: 370px;
